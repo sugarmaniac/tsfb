@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/openFragment">
+
+    <fragment
+        android:id="@+id/openFragment"
+        android:name="com.sugarmaniac.timeSeries.fragments.OpenFragment"
+        android:label=""
+        tools:layout="@layout/fragment_open" >
+        <action
+            android:id="@+id/action_openFragment_to_newSeriesFragment"
+            app:destination="@id/newSeriesFragment" />
+        <action
+            android:id="@+id/action_openFragment_to_currentSeriesFragment"
+            app:destination="@id/currentSeriesFragment" />
+        <action
+            android:id="@+id/action_openFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newSeriesFragment"
+        android:name="com.sugarmaniac.timeSeries.fragments.NewSeriesFragment"
+        android:label="@string/new_serie"
+        tools:layout="@layout/fragment_new_series" >
+        <action
+            android:id="@+id/action_newSeriesFragment_to_currentSeriesFragment"
+            app:destination="@id/currentSeriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/currentSeriesFragment"
+        android:name="com.sugarmaniac.timeSeries.fragments.CurrentSeriesFragment"
+        android:label="@string/current_series"
+        tools:layout="@layout/fragment_current_series" >
+        <action
+            android:id="@+id/action_currentSeriesFragment_to_addEntryFragment"
+            app:destination="@id/addEntryFragment" />
+        <action
+            android:id="@+id/action_currentSeriesFragment_to_showSeriesFragment"
+            app:destination="@id/showSeriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEntryFragment"
+        android:name="com.sugarmaniac.timeSeries.fragments.AddEntryFragment"
+        android:label="@string/add_entry"
+        tools:layout="@layout/fragment_add_entry" >
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="type"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_addEntryFragment_to_currentSeriesFragment"
+            app:destination="@id/currentSeriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showSeriesFragment"
+        android:name="com.sugarmaniac.timeSeries.fragments.ShowSeriesFragment"
+        android:label="@string/serie_details"
+        tools:layout="@layout/fragment_show_series" >
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="type"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_showSeriesFragment_to_openFragment"
+            app:destination="@id/openFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.sugarmaniac.timeSeries.fragments.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>

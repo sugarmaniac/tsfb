@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/notifications">
+
+        <MultiSelectListPreference
+            app:title="@string/days_to_repeat"
+            app:enabled="true"
+            app:summary="@string/select_notification_days"
+            app:key="TargetDays"
+            app:persistent="true"
+            app:entries="@array/days"
+            app:entryValues="@array/day_values"
+            app:defaultValue="@array/empty_array"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name" translatable="false">Time Series</string>
+    <string name="test_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="enter_value">Enter Value</string>
+    <string name="new_series">New Series</string>
+    <string name="new_serie">New Serie</string>
+    <string name="new_entry">New Entry</string>
+    <string name="text">Text</string>
+    <string name="numeric">Number</string>
+    <string name="bool">Yes/No</string>
+    <string name="select_input_type">Select Input Type</string>
+    <string name="true_false_hint">For "False" input leave field blank. (Only for True/False Input Type)</string>
+    <string name="create">Create</string>
+    <string name="true_string">True</string>
+    <string name="false_string">False</string>
+    <string name="time">Time</string>
+    <string name="value">Value</string>
+    <string name="next">Next</string>
+    <string name="title_of_series">Title of Series</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="current_series">Current Series</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="serie_details">Series Details</string>
+    <string name="there_is_no_series">There Is No Series</string>
+    <string name="fill_all">Fill All</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="notifications">Notifications</string>
+    <string name="days_to_repeat">Notification Days</string>
+    <string name="select_notification_days">Select notification days</string>
+    <string name="notification_title">find something here</string>
+    <string name="notification_text">find too</string>
+
+
+    <string name="banner_id">ca-app-pub-6071325621384231/3807067580</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_text_size">32dp</dimen>
+    <dimen name="button_text_size">16dp</dimen>
+    <dimen name="menu_button_size">50dp</dimen>
+
+    <dimen name="margin8">8dp</dimen>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="margin32">32dp</dimen>
+
+    <dimen name="radius8">8dp</dimen>
+    <dimen name="radius16">16dp</dimen>
+
+    <dimen name="text8">8dp</dimen>
+    <dimen name="text12">12dp</dimen>
+    <dimen name="text16">16dp</dimen>
+    <dimen name="text20">20dp</dimen>
+    <dimen name="text24">24dp</dimen>
+    <dimen name="text32">32dp</dimen>
+
+    <dimen name="button50">50dp</dimen>
+    <dimen name="button40">40dp</dimen>
+    <dimen name="button80">80dp</dimen>
+    <dimen name="button100">100dp</dimen>
+    <dimen name="button120">120dp</dimen>
+    <dimen name="button150">150dp</dimen>
+    <dimen name="button200">200dp</dimen>
+
+</resources>
